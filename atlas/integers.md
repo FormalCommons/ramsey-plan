@@ -63,7 +63,9 @@ progression of length $k$* is $a, a + d, \dots, a + (k - 1)d$ with $d \geq 1$.
 > [!milestone] Rado's theorem for one equation
 > *A stretch goal: expected to be hard and to need several pull requests.*
 >
-> Let $a_1, \dots, a_n$ be nonzero integers. The equation $a_1 x_1 + \cdots + a_n x_n = 0$ is *partition regular*, that is, every colouring of the positive integers with finitely many colours has a monochromatic solution in positive integers, if and only if some nonempty set of the $a_i$ sums to $0$.
+> Let $n \geq 1$ and let $a_1, \dots, a_n$ be nonzero integers. The equation $a_1 x_1 + \cdots + a_n x_n = 0$ is *partition regular*, that is, every colouring of the positive integers with finitely many colours has a monochromatic solution in positive integers, if and only if some nonempty set of the $a_i$ sums to $0$.
+>
+> The hypothesis $n \geq 1$ is needed: with no coefficients, the empty equation is trivially partition regular, but there is no nonempty set of coefficients.
 >
 > Sources: [@Rado1933]; [@GRS1990, Ch. 3]; [@LandmanRobertson2014, Ch. 9].
 >
